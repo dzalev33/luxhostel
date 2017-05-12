@@ -73,8 +73,11 @@
  * @ingroup templates
  */
 ?>
+<?php if (!drupal_is_front_page()):?>
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
   <div class="<?php print $container_class; ?>">
+
+
     <div class="navbar-header">
       <?php if ($logo): ?>
         <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
@@ -94,7 +97,10 @@
           <span class="icon-bar"></span>
         </button>
       <?php endif; ?>
+
+
     </div>
+
 
     <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
       <div class="navbar-collapse collapse" id="navbar-collapse">
@@ -113,7 +119,7 @@
     <?php endif; ?>
   </div>
 </header>
-
+<?php endif; ?>
 <div class="main-container <?php print $container_class; ?>">
 
   <header role="banner" id="page-header">
