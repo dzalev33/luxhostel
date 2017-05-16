@@ -1,62 +1,311 @@
 /**
  * Place your custom styles here.
+
  */
 .jcarousel-skin-tango .jcarousel-container-horizontal{
     width:auto;
 
 }
-.tekstclass{
 
+
+
+/*.row-bordered:after {*/
+  /*content: "";*/
+  /*display: block;*/
+  /*border: 1px solid black;*/
+  /*margin: 0 15px;*/
+/*}*/
+
+
+/*.btn-circle {*/
+    /*width: 30px;*/
+    /*height: 30px;*/
+    /*text-align: center;*/
+    /*padding: 6px 0;*/
+    /*font-size: 15px;*/
+    /*line-height: 1.428571429;*/
+    /*border-radius: 15px;*/
+/*}*/
+/*.btn-circle.btn-responsive {*/
+    /*position: relative;*/
+
+    /*border-radius: 50% !important;*/
+    /*width: 100% !important;*/
+    /*padding: 0 !important;*/
+    /*padding-bottom: 100%!important;*/
+/*}*/
+
+/*.front-circle {*/
+    /*!*margin: 0 auto;*!*/
+/*!*}*!*/
+
+/*.header-name-hostel{*/
+
+    /*text-align: center;*/
+    /*background: none;*/
+/*}*/
+
+html, body{height:100%;}
+
+body.front {
+    /*background-image: url('../images/hotel-room-3840x2160-001.jpg')!important;;*/
+
+
+background: url('../images/hotel-room-3840x2160-001.jpg') no-repeat   center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+    /*background-color: #FFFFFF !important;*/
+
+    /*background-repeat: no-repeat !important;*/
+    /*background-attachment: scroll !important;*/
+    /*background-position: left top !important;*/
+    /*background-size: cover !important;*/
+    /*-webkit-background-size: cover !important;*/
+    /*-moz-background-size: cover !important;*/
+    /*-o-background-size: cover !important;*/
+
+
+
+
+    /*background-color: #cccccc;*/
+    /*background-repeat: no-repeat;*/
+    /*max-width: 100%;*/
+    /*position: relative;*/
+    /*margin: auto;*/
+    /*background-repeat:no-repeat;*/
+    /*background-size:contain;*/
+    /*background-position:center;*/
+    /*background-repeat:no-repeat;*/
+    /*-webkit-background-size:cover;*/
+
+    /*-moz-background-size:cover;*/
+    /*-o-background-size:cover;*/
+    /*background-size:cover;*/
+}
+
+
+
+
+
+/*.front-circle{*/
+    /*!*width:20%;*!*/
+    /*!*display:inline-block;*!*/
+    /*margin-left:2.25%;*/
+    /*margin-right:2.25%;*/
+/*}*/
+
+/*@media (min-width: 605px) {*/
+    /*.container {*/
+        /*width: 750px;*/
+    /*}*/
+    /*.btn-circle {*/
+        /*width:200px;*/
+
+    /*}*/
+/*}*/
+/*@media (max-width: 767px) {*/
+    /*.front-circle{*/
+        /*width:29%;*/
+        /*margin-left:10%;*/
+        /*margin-right:10%;*/
+        /*margin-top: 50px;*/
+    /*}*/
+/*}*/
+/*@media (min-width: 1200px) {*/
+    /*.container {*/
+        /*width: 1170px;*/
+    /*}*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {*/
+    /*font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+/*}*/
+
+/*.text-vertical-center {*/
+    /*position: relative;*/
+    /*!*display: table-cell;*!*/
+    /*text-align: center;*/
+    /*vertical-align: middle;*/
+/*}*/
+
+h1 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    /*font-weight: 700*/
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+    /*border-radius: 0;*/
+    color: #6f6f6f;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+
+/*hr.small {*/
+    /*max-width: 100px;*/
+/*}*/
+
+
+/*h3{*/
+    /*!*position: absolute;*!*/
+
+    /*!*display: flex;*!*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+
+
+    /*color: white;*/
+    /*font: bold 15px/13px Helvetica, Verdana, Tahoma;*/
+
+    /*!*min-width: 14px;*!*/
+    /*!*padding: 4px 3px 0 3px;*!*/
+    /*!*text-align: center;*!*/
+/*}*/
+
+a:hover{
+    text-decoration:none;
+}
+.circle:active,
+.circle:focus,
+.circle:hover{
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+.circle:hover h3{
+    color:white;
+}
+
+.circle{
+    color: #6f6f6f;
+    background-color: rgba(0,0,0,0.4);
+    border-radius:50%;
+    position:relative;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    width:100px;
+    height:100px;
 
 
 }
 
-.row-bordered:after {
-  content: "";
-  display: block;
-  border: 1px solid black;
-  margin: 0 15px;
-}
-
-
-.btn-circle {
-    width: 250px;
-    height: 250px;
+.circle h3{
+    display:block;
     text-align: center;
-    padding: 50px 0;
+    height:100px;
+    line-height: 100px;
     font-size: 12px;
-    line-height: 1.42;
-    border-radius: 360px;
-
 }
 
-
-
-.header-name-hostel{
-
-    text-align: center;
-    background: none;
-}
-
-    html,body {
-        background-image: url('../images/fullllllll.jpg');
-        /*background-color: #cccccc;*/
-        /*background-repeat: no-repeat;*/
-        /*max-width: 100%;*/
-        /*height: auto;*/
-        /*!*position: relative;*!*/
-        /*!*margin: auto;*!*/
-        /*background-repeat:no-repeat;*/
-        /*background-size:contain;*/
-        /*background-position:center;*/
-        background-repeat:no-repeat;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-
-
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    .circle{
+        width:150px;
+        height:150px;
     }
+
+    .circle h3{
+        height:150px;
+        line-height: 150px;
+        font-size: 18px;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    .circle{
+        width:150px;
+        height:150px;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .circle{
+        width:150px;
+        height:150px;
+    }
+
+    .circle h3{
+        height:150px;
+        line-height: 150px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .circle{
+        width:200px;
+        height:200px;
+    }
+
+    .circle h3{
+        height:200px;
+        line-height: 200px;
+    }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .circle{
+        width:250px;
+        height:250px;
+    }
+
+    .circle h3{
+        height:250px;
+        line-height: 250px;
+    }
+}
+
+
+
+
 
 
 
