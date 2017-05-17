@@ -122,6 +122,14 @@ a:hover{
         font-size: 18px;
     }
 
+    .slika{
+        padding-left: 16px; !important;
+        margin-bottom: 10px;
+        margin-right: 0;
+        color: darkblue;
+    }
+
+
 }
 
 /* Extra Small Devices, Phones */
@@ -130,6 +138,12 @@ a:hover{
         width:150px;
         height:150px;
     }
+
+
+.field-slideshow-wrapper{
+    width: 100%;
+}
+
 
 }
 
@@ -144,6 +158,11 @@ a:hover{
         height:150px;
         line-height: 150px;
     }
+
+
+
+
+
 }
 
 /* Medium Devices, Desktops */
@@ -171,6 +190,8 @@ a:hover{
         height:250px;
         line-height: 250px;
     }
+
+
 }
 
 
@@ -186,7 +207,6 @@ a.carousel-prev{
 
 
 .slika{
-    padding-left: 50px;
     margin-bottom: 10px;
     margin-right: 0px;
     color: darkblue;
@@ -212,16 +232,6 @@ li img{
     text-align: center;
     align-items: center;
     /*margin:auto;*/
-}
-
-.field-slideshow-image{
-
-}
-
-.field-slideshow-wrapper{
-
-    width: 290px;
-
 }
 
 
