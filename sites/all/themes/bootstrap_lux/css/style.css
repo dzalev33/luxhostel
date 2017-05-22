@@ -37,6 +37,10 @@ h1 {
 
 }
 
+.region-content {
+    margin-bottom: 50px;
+}
+
 
 /* Custom Button Styles */
 
@@ -255,13 +259,46 @@ li img{
 }
 
 
+#cal-view-1 {
+
+    position: relative;
+}
+
+.cal-buttons-before{
+    position: absolute;
+    bottom: 0;
+    left: 6px;
+    color: black;
+    border-radius: 50%;
+
+}
+
+.cal-buttons-after{
+    color: black;
+    float: right;
+    border-radius: 50%;
+}
+
+
+.field-name-field-availability {
+    max-width: 300px;
+}
 
 
 
+.cal-backward{
+
+    border-radius: 50%;
+}
 
 
+.cal-forward{
+    border-radius: 50%;
+}
 
-
+.form-control{
+    color: whitesmoke;
+}
 
 
 
